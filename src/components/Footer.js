@@ -40,8 +40,6 @@ const Footer = (props) => (
               </a>
             </li>
           </ul>
-          <h4>Sponsor By:</h4>
-          <img src={sponsor01} style={{ width: '200px' }} />
     </footer>
 )
 

@@ -57,8 +57,8 @@ class Main extends React.Component {
             correct i nformation regarding the next meeting.
           </p>
           <span className="image main">
-          <h4 className="major">Jan 29th, 2020</h4>
-          <b>AR Workshop</b>
+          <h4 className="major">October 21, 2020</h4>
+          <b></b>
            <p>Join us for our AR workshop with Aashiq Shaikh. We will be going over the current state of AR.
           <p>Location: MU 246
             <p>Time: 8 - 9:30pm 
