@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import pdf from '../pdf/Sponsor_Packet.pdf'
@@ -57,26 +57,48 @@ class Main extends React.Component {
             correct i nformation regarding the next meeting.
           </p>
           <span className="image main">
-          <h4 className="major">Jan 29th, 2020</h4>
-          <b>AR Workshop</b>
-           <p>Join us for our AR workshop with Aashiq Shaikh. We will be going over the current state of AR.
-          <p>Location: MU 246
-            <p>Time: 8 - 9:30pm 
+          <h4 className="major">October 21, 2020</h4>
+          <b>Ethelia Lung, Interaction Designer at Youtube</b>
+           <p>
+          <p>Location: Online-Meeting
+            <p>Time: 6:30 - 7:45pm 
             </p>
             </p>
           </p>
-          <Button variant="outlined" color="inherit" href="https://github.com/shikshake/Workshop-Game" target="_blank">Github</Button>
+          <Button variant="outlined" color="inherit" href="#">RVSP</Button>
           </span>
           <span className="image main">
-          <h4 className="major">Feb 12th, 2020</h4>
-          <b>IOS Workshop</b>
-          <p>Join us will be Perry Waxman! He will be leading an IOS workshop. Make sure to have a mac and Xcode downloaded. 
-          <p>Location: MU 246
-            <p>Time: 8 - 9:30pm
+          <h4 className="major">November 11th, 2020</h4>
+          <b>Elevate, Career Workshop</b>
+          <p>
+          <p>Location: Online-Meeting
+            <p>Time: 6:30 - 7:45pm 
             </p>
             </p>
           </p>
-          <Button variant="outlined" color="inherit" href="https://forms.gle/uGCSvsv9LugYFfz68" target = "_blank">RVSP</Button>
+          <Button variant="outlined" color="inherit" href="#">RVSP</Button>
+          </span>
+          <span className="image main">
+          <h4 className="major">November 18th, 2020</h4>
+          <b>AR Workshop</b>
+          <p>Join our AR workshop with our advisor, Robert LikamWa
+          <p>Location: Online-Meeting
+            <p>Time: 6:30 - 7:45pm 
+            </p>
+            </p>
+          </p>
+          <Button variant="outlined" color="inherit" href="#">RVSP</Button>
+          </span>
+          <span className="image main">
+          <h4 className="major">December 02th, 2020</h4>
+          <b>React Native Workshop</b>
+          <p>
+          <p>Location: Online-Meeting
+            <p>Time: 6:30 - 7:45pm 
+            </p>
+            </p>
+          </p>
+          <Button variant="outlined" color="inherit" href="#">RVSP</Button>
           </span>
           {close}
         </article>
@@ -106,8 +128,8 @@ class Main extends React.Component {
             Our Director of Marketing will reach back to you shortly. 
             We look forward to working and collaborating with you in the future!
           </p>
-              <Button variant="outlined" color="inherit" href="https://forms.gle/6iyzMctsyXh5GL3F6" target = "_blank" style = {{ margin: 10 }}>Sponsor Form</Button> 
-              <Button variant="outlined" color="inherit" href={pdf} target = "_blank">Sponsor Packet</Button>
+              <Button variant="outlined" color="inherit" href="https://forms.gle/6iyzMctsyXh5GL3F6" style={{ margin: 10 }}>Sponsor Form</Button> 
+              <Button variant="outlined" color="inherit" href={pdf}>Sponsor Packet</Button> 
           {close}
         </article>
 
@@ -133,7 +155,7 @@ class Main extends React.Component {
             meetings and events for the semester. What are you waiting for? We hope to see you there!
           </p>
           <p>To get more information and detail on our meetings and what is to come, follow us on our social media!</p>
-          <Button variant="outlined" color="inherit" href="https://forms.gle/xF45onZyKphdatmP6" target = "_blank">Be A Member!</Button>
+          <Button variant="outlined" color="inherit" href="https://forms.gle/xF45onZyKphdatmP6">Be A Member!</Button>
           {close}
         </article>
       </div>
@@ -141,7 +163,7 @@ class Main extends React.Component {
   }
 }
 
-Main.PropTypes = {
+Main.propTypes = {
   route: PropTypes.object,
   article: PropTypes.string,
   articleTimeout: PropTypes.bool,
