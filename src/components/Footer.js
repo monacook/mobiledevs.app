@@ -1,24 +1,23 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import sponsor01 from '../images/devmountain.png'
+import PropTypes from 'prop-types';
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
         <ul className="icons">
             <li>
-              <a href="https://www.facebook.com/groups/asumobiledevs/" className="icon fa-facebook" target = "_blank">
+              <a href="https://www.facebook.com/groups/asumobiledevs/" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/mobiledevs.asu/" className="icon fa-instagram" target = "_blank">
+              <a href="https://www.instagram.com/mobiledevs.asu/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
                 href="https://github.com/MobileDevs-ASU"
-                className="icon fa-github" target = "_blank"
+                className="icon fa-github"
               >
                 <span className="label">Orgsync</span>
               </a>
@@ -26,7 +25,7 @@ const Footer = (props) => (
             <li>
               <a
                 href="https://fso.engineering.asu.edu/project/mobiledevs/"
-                className="fa fa-repeat" target = "_blank"
+                className="fa fa-repeat" 
               >
                 {/* <span className="label">GitHub</span> */}
               </a>
@@ -34,7 +33,7 @@ const Footer = (props) => (
             <li>
               <a
                 href="https://web.groupme.com/join_group/48534878/ZpONPlNx"
-                className="fa fa-comment" target = "_blank"
+                className="fa fa-comment"
               >
                 {/* <span className="label">GitHub</span> */}
               </a>
