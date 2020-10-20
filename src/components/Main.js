@@ -59,7 +59,8 @@ class Main extends React.Component {
           <span className="image main">
           <h4 className="major">October 21, 2020</h4>
           <b>Ethelia Lung, Interaction Designer at Youtube</b>
-           <p>
+           <p>We are going outside of Mobile and talking about design! We have our special guest Ethelia, an Interaction Designer at Youtube!
+           Sharing her tips and tricks on design and her experience working at Youtube!
           <p>Location: Online-Meeting
             <p>Time: 6:30 - 7:45pm 
             </p>
