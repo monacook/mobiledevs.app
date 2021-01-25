@@ -19,7 +19,7 @@ const Footer = (props) => (
                 href="https://github.com/MobileDevs-ASU"
                 className="icon fa-github"
               >
-                <span className="label">Orgsync</span>
+                <span className="label">github</span>
               </a>
             </li>
             <li>
@@ -27,17 +27,15 @@ const Footer = (props) => (
                 href="https://fso.engineering.asu.edu/project/mobiledevs/"
                 className="fa fa-repeat" 
               >
-                {/* <span className="label">GitHub</span> */}
               </a>
             </li>
             <li>
               <a
-                href="https://web.groupme.com/join_group/48534878/ZpONPlNx"
-                className="fa fa-comment"
+                href="https://discord.com/invite/a3ZBPVjxbV"
+                className="fab fa-discord"
               >
-                {/* <span className="label">GitHub</span> */}
               </a>
-            </li>
+            </li>    
           </ul>
     </footer>
 )
