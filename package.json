@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "predeploy": "yarn build",
+    "start": "yarn build",
     "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
