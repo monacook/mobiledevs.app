@@ -1,7 +1,6 @@
 {
   "name": "gatsby-starter-dimension-v2",
   "description": "Gatsby Starter - Dimension V2",
-  "homepage": "https://monacook.github.io/mobiledevs.app/",
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
@@ -24,7 +23,6 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn build",
-    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
