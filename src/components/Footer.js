@@ -34,6 +34,7 @@ const Footer = (props) => (
                 href="https://discord.com/invite/a3ZBPVjxbV"
                 className="fab fa-discord"
               >
+              <p>TikTok Video!</p>
               </a>
             </li>    
           </ul>
