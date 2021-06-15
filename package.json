@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "@material-ui/core": "^4.5.1",
     "gatsby": "^2.15.28",
     "gatsby-cli": "^2.12.107",
@@ -12,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-sass": "^2.1.17",
     "gatsby-source-filesystem": "^2.1.37",
+    "gh-pages": "^3.2.1",
     "node-sass": "^4.12.0",
     "react": "^16.11.0",
     "react-dom": "^16.12.0",
@@ -24,6 +26,7 @@
   "scripts": {
     "start": "yarn build",
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"

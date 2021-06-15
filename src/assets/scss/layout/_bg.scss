@@ -7,8 +7,8 @@
 /* BG */
 
 	#bg {
-		@include vendor('transform', 'scale(1.0)');
-		-webkit-backface-visibility: hidden;
+		@include vendor('transform', 'scale(1.0)'); 
+	-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -46,7 +46,7 @@
 				'transform #{_duration(article)} ease-in-out',
 				'filter #{_duration(article)} ease-in-out'
 			));
-			background-image:		url('../../images/mobiledevsimg.jpeg');
+			background-image:		url('../../images/mobiledevsbanner.png');
 			background-position:	center;
 			background-size:		auto;
 			background-repeat:		no-repeat;

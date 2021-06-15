@@ -10,7 +10,8 @@ const Header = (props) => (
             <div className="inner">
             <h1>Welcome!</h1>
             <h2>Learn. Build. Deploy.</h2>
-                <p>A student club organization learning all things mobile at Arizona State University.</p>                
+            <p>A student club organization learning all things mobile at Arizona State University.</p>                 
+            <h3 style={{color:"red"}}>**Due to COVID-19, we are still having workshops virtual until further notice.**</h3>
             </div>
         </div>
         <nav>

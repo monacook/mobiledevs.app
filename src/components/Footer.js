@@ -32,9 +32,8 @@ const Footer = (props) => (
             <li>
               <a
                 href="https://discord.com/invite/a3ZBPVjxbV"
-                className="fab fa-discord"
+                className="fa fa-comments-o"
               >
-              <p>TikTok Video!</p>
               </a>
             </li>    
           </ul>

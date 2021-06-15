@@ -29,9 +29,6 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          {/* <span className="image main">
-            <img src={pic01} alt="" />
-          </span> */}
           <h2 className="major">About</h2>
           <p>
           <b>We</b> are a student organization at Arizona State University that provides a community with the necessary resources to support 
@@ -49,15 +46,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Our Meetings</h2>
-          {/* <span  className="image main">
-            <img src={pic03} alt="" />
-          </span> */}
+          <b style={{color:"red"}}>Meetings will be held virtual due to Covid until further notice.</b>
           <p>Meeting dates, time and location may change throughout the semester. We will do our best to 
             update any info before the meeting. If the email and website do not match, please refer to the email for 
-            correct i nformation regarding the next meeting.
+            correct information regarding the next meeting.
           </p>
-          <span className="image main">
-          <h4 className="major">October 21, 2020</h4>
+          {/* <span className="image main">
+          <h4 className="major">Sept 15, 2021</h4>
           <b>Ethelia Lung, Interaction Designer at Youtube</b>
            <p>
           <p>Location: Online-Meeting
@@ -68,7 +63,7 @@ class Main extends React.Component {
           <Button variant="outlined" color="inherit" href="#">RVSP</Button>
           </span>
           <span className="image main">
-          <h4 className="major">November 11th, 2020</h4>
+          <h4 className="major">Sept 29, 2021</h4>
           <b>Elevate, Career Workshop</b>
           <p>
           <p>Location: Online-Meeting
@@ -79,7 +74,7 @@ class Main extends React.Component {
           <Button variant="outlined" color="inherit" href="#">RVSP</Button>
           </span>
           <span className="image main">
-          <h4 className="major">November 18th, 2020</h4>
+          <h4 className="major">Oct 13, 2021</h4>
           <b>AR Workshop</b>
           <p>Join our AR workshop with our advisor, Robert LikamWa
           <p>Location: Online-Meeting
@@ -90,7 +85,7 @@ class Main extends React.Component {
           <Button variant="outlined" color="inherit" href="#">RVSP</Button>
           </span>
           <span className="image main">
-          <h4 className="major">December 02th, 2020</h4>
+          <h4 className="major">Oct 27, 2021</h4>
           <b>React Native Workshop</b>
           <p>
           <p>Location: Online-Meeting
@@ -99,7 +94,7 @@ class Main extends React.Component {
             </p>
           </p>
           <Button variant="outlined" color="inherit" href="#">RVSP</Button>
-          </span>
+          </span> */}
           {close}
         </article>
 
