@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-sass": "^2.1.17",
     "gatsby-source-filesystem": "^2.1.37",
+    "gh-pages": "^3.2.1",
     "node-sass": "^4.12.0",
     "react": "^16.11.0",
     "react-dom": "^16.12.0",
@@ -25,6 +26,7 @@
   "scripts": {
     "start": "yarn build",
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
